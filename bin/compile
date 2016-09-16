@@ -66,7 +66,7 @@ elif test -d $cache_dir/node_modules; then
 fi
 
 status "Installing StrongLoop dependencies"
-npm install -g strongloop@forivall/strongloop#fix-lb-ng
+npm install -g strongloop@frichti/strongloop#fix/strong-agent-version
 # Make npm output to STDOUT instead of its default STDERR
 status "Installing dependencies"
 npm install --production 2>&1 | indent
